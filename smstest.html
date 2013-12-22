@@ -1,0 +1,43 @@
+<head>
+  <title>smstest</title>
+</head>
+
+<body>
+
+</body>
+
+<template name="mainTemplate">
+	<div class="ui grid">
+		<div class="ten wide column">
+			<h1  class="ui header">SMS Test Facility</h1>
+			<div class="ui small piled feed segment">
+				<h2 class="ui header">
+					Recent Activity
+				</h2>
+				{{#each messages}}
+				<div class="event">
+					<div class="label">
+						{{#if incoming this}}<i class="left icon"></i>
+						{{else}}<i class="right icon"></i>
+						{{/if}}
+					</div>
+					<div class="content">
+						<div class="date">
+							{{this.date}}
+						</div>
+						<div class="summary">
+							{{this.text}}
+						</div>
+						<div class="extra text">
+							<i class="phone icon"></i>
+							{{#if incoming this}} Incoming
+							{{else}} Outgoing
+							{{/if}}
+						</div>
+					</div>
+				</div>
+				{{/each}}
+			</div>
+		</div>
+	</div>
+</template>

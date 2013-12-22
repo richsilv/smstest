@@ -1,0 +1,48 @@
+{
+  "meteor": {},
+  "dependencies": {
+    "basePackages": {
+      "moment": {},
+      "twilio-meteor": {},
+      "iron-router": {},
+      "semantic-ui": {},
+      "nlp": {},
+      "natural": {
+        "git": "https://github.com/Pent/meteor-natural.git",
+        "branch": "master"
+      }
+    },
+    "packages": {
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.2.1",
+        "commit": "9ee12e714afe56b189f53076447b7b54f3012065"
+      },
+      "twilio-meteor": {
+        "git": "http://github.com/andreioprisan/twilio-meteor.git",
+        "tag": "v1.1.0",
+        "commit": "7f36ec52fc334caf8b740320524df62afce890e1"
+      },
+      "iron-router": {
+        "git": "https://github.com/EventedMind/iron-router.git",
+        "tag": "v0.6.1",
+        "commit": "4e1ee0581d68bff422a915dacb0bd30eae10fe08"
+      },
+      "semantic-ui": {
+        "git": "https://github.com/nooitaf/meteor-semantic-ui.git",
+        "tag": "v0.10.0",
+        "commit": "96198e081d974fb67b9a5992f7e74ff1f736322f"
+      },
+      "nlp": {
+        "git": "https://github.com/andreioprisan/meteor-nlp.git",
+        "tag": "v0.1.21",
+        "commit": "99367588b96a4458a17b62b950c28d758af57db3"
+      },
+      "natural": {
+        "git": "https://github.com/Pent/meteor-natural.git",
+        "branch": "master",
+        "commit": "1ba581257d744b399ceefa1d6a6a4d31a56489a4"
+      }
+    }
+  }
+}

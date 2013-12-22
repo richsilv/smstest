@@ -1,0 +1,10 @@
+{
+  "packages": {
+    "moment": {},
+    "twilio-meteor": {},
+    "iron-router": {},
+    "semantic-ui": {},
+    "nlp": {},
+    "natural": {"git":"https://github.com/Pent/meteor-natural.git"}
+  }
+}
